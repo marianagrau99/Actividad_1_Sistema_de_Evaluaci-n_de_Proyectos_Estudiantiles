@@ -60,7 +60,7 @@ def mostrar_tabla(acumulado):
     Args:
         acumulado (dict): Diccionario con datos acumulados por equipo.
     """
-    print(f"{'Equipo':<10} {'Innovación':<10} {'Presentación':<13} {'Errores':<8} {'Mejores':<9} {'Puntos':<6}")
+    print(f"{'Equipo':<10} {'Innovación':<10} {'Presentación':<13} {'Errores':<8} {'Mejores Equipos':<9} {'Puntos':<6}")
     
     # Ordenar equipos por puntos descendentes
     equipos_ordenados = sorted(acumulado.items(), key=lambda x: x[1]['puntos'], reverse=True)
